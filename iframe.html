@@ -359,12 +359,11 @@
 </script>
 <script>
   window.global = window;
+  // Provide to tailwind in provide-theme-variables.html 
+  // to be able to use added classes in storybook
+  setTimeout(() => document.body.classList.add("font-zep-roboto"), 0);
 </script>
-<style>
-  @import "../node_modules/@zepdev/figma-design-tokens/dist/tailwind.css";
-  @import "tailwindcss/tailwind.css";
-</style>
-  <script type="module" crossorigin src="./assets/iframe-38337de7.js"></script>
+  <script type="module" crossorigin src="./assets/iframe-b114a68c.js"></script>
 </head>
 
 <body>
