@@ -19,9 +19,8 @@
     window.FRAMEWORK_OPTIONS = {};
     window.CHANNEL_OPTIONS = {};
     window.FEATURES = {"warnOnLegacyHierarchySeparator":true,"buildStoriesJson":false,"storyStoreV7":true,"argTypeTargetsV7":true,"legacyDecoratorFileOrder":false};
-    window.STORIES = [{"titlePrefix":"","directory":"./src","files":"**/*.mdx","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.mdx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.stories.@(js|jsx|ts|tsx)","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(js|jsx|ts|tsx))$"}];
+    window.STORIES = [{"titlePrefix":"","directory":"./src","files":"**/*.mdx","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.mdx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.stories.@(js|jsx|ts|tsx|mdx)","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(js|jsx|ts|tsx|mdx))$"}];
     window.DOCS_OPTIONS = {"defaultName":"Docs","autodocs":"tag"};
-    window.SERVER_CHANNEL_URL = undefined;
 
     // We do this so that "module && module.hot" etc. in Storybook source code
     // doesn't fail (it will simply be disabled)
@@ -357,13 +356,11 @@
     console.warn('unable to connect to top frame for connecting dev tools');
   }
 </script>
-<script>
-  window.global = window;
-  // Provide to tailwind in provide-theme-variables.html 
-  // to be able to use added classes in storybook
-  setTimeout(() => document.body.classList.add("font-zep-roboto"), 0);
-</script>
-  <script type="module" crossorigin src="./assets/iframe-b114a68c.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700;8..144,900&display=swap" rel="stylesheet">
+
+  <script type="module" crossorigin src="./assets/iframe-78186b09.js"></script>
 </head>
 
 <body>
