@@ -94,8 +94,8 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/PhoneInput.stories.tsx",
-      "name": "./src/components/phone-input/PhoneInput.stories.tsx",
+      "id": "./src/components/link/Link.stories.tsx",
+      "name": "./src/components/link/Link.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -103,8 +103,8 @@
       ]
     },
     {
-      "id": "./src/components/link/Link.stories.tsx",
-      "name": "./src/components/link/Link.stories.tsx",
+      "id": "./src/components/phone-input/PhoneInput.stories.tsx",
+      "name": "./src/components/phone-input/PhoneInput.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -325,6 +325,33 @@
       ]
     },
     {
+      "id": "./src/components/link/Link.tsx",
+      "name": "./src/components/link/Link.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/link/Link.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/link/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/link/link.interface.ts",
+      "name": "./src/components/link/link.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/link/Link.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/link/index.ts"
+        },
+        {
+          "moduleName": "./src/components/link/Link.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/card/index.ts",
       "name": "./src/components/card/index.ts",
       "reasons": [
@@ -403,33 +430,6 @@
       ]
     },
     {
-      "id": "./src/components/link/Link.tsx",
-      "name": "./src/components/link/Link.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/link/Link.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/link/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/link/link.interface.ts",
-      "name": "./src/components/link/link.interface.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/link/Link.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/link/index.ts"
-        },
-        {
-          "moduleName": "./src/components/link/Link.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/input/Input.tsx",
       "name": "./src/components/input/Input.tsx",
       "reasons": [
@@ -452,16 +452,16 @@
           "moduleName": "./src/components/text-area/TextArea.tsx"
         },
         {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        },
-        {
           "moduleName": "./src/components/link/Link.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         },
         {
           "moduleName": "./src/components/form-field/FormField.tsx"
+        },
+        {
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
