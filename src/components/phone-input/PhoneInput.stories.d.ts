@@ -8,4 +8,6 @@ export declare const Info: Story;
 export declare const Required: Story;
 export declare const ReadOnly: Story;
 export declare const Disabled: Story;
+export declare const FillValue: Story;
+export declare const SelectAnItem: Story;
 //# sourceMappingURL=PhoneInput.stories.d.ts.map

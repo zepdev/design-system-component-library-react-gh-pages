@@ -3,7 +3,7 @@ export * from './card';
 export * from './checkbox';
 export * from './drop-down';
 export * from './drop-down-filter';
-export * from './form-field';
+export * from './fieldset';
 export * from './grid';
 export * from './icon';
 export * from './input';

@@ -32,10 +32,10 @@ export declare const FunctionalIcons: {
     readonly 'microphone-filled': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'volume-up-filled': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'volume-off-filled': () => import("react/jsx-dev-runtime").JSX.Element;
-    readonly 'Volume-down-filled': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'volume-down-filled': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'volume-up': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'volume-off': () => import("react/jsx-dev-runtime").JSX.Element;
-    readonly 'voume-down': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'volume-down': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly microphone: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly play: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly email: () => import("react/jsx-dev-runtime").JSX.Element;

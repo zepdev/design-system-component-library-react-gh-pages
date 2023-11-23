@@ -5,6 +5,7 @@ export type ProductIconNames = keyof typeof ProductIcons;
 interface IconProps extends SVGAttributes<SVGAElement> {
     role?: 'presentation' | 'img';
     className?: string;
+    title?: string;
 }
 export interface FunctionalIconProps extends IconProps {
     name: FunctionalIconNames;

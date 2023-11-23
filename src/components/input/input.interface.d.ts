@@ -5,10 +5,13 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     error?: boolean;
     icon?: FunctionalIconNames;
     hasInfoIcon?: boolean;
-    message?: string;
+    infoTitle?: string;
     placeholder: string;
     required?: boolean;
     notRequiredHint?: string;
+    message?: string;
+    messageAriaLive?: 'assertive' | 'polite' | 'off';
+    state?: 'error' | 'info' | 'default' | 'disabled';
     onIconToggle?: () => void;
     onIconInfoClick?: () => void;
 }
