@@ -2,7 +2,13 @@ import type { StoryObj } from '@storybook/react';
 import { TabProps } from './tab.interface';
 declare const meta: {
     title: string;
-    component: ({ disabled, children }: TabProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: {
+        ({ disabled, children }: TabProps): import("react/jsx-dev-runtime").JSX.Element;
+        Group: ({ children }: import("./tab.interface").TabGroupProps) => import("react/jsx-dev-runtime").JSX.Element;
+        List: ({ children }: import("./tab.interface").TabListProps) => import("react/jsx-dev-runtime").JSX.Element;
+        Panel: ({ children }: import("./tab.interface").TabPanelProps) => import("react/jsx-dev-runtime").JSX.Element;
+        Panels: ({ children }: import("./tab.interface").TabPanelsProps) => import("react/jsx-dev-runtime").JSX.Element;
+    };
     tags: string[];
     argTypes: {
         disabled: {

@@ -1,5 +1,5 @@
 import type { StoryObj } from '@storybook/react';
-import { LinkProps, LinkSize, LinkTarget, LinkMode } from './link.interface';
+import { LinkMode, LinkProps, LinkSize, LinkTarget } from './link.interface';
 declare const meta: {
     title: string;
     component: import("react").FC<LinkProps>;
@@ -32,9 +32,12 @@ declare const meta: {
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
-export declare const Default: Story;
+export declare const Inline: Story;
+export declare const Standalone: Story;
+export declare const Disabled: Story;
+export declare const Small: Story;
+export declare const Icon: Story;
 export declare const External: Story;
-export declare const StandaloneIcon: Story;
 export declare const AsSpanTag: Story;
 export declare const RelAttribute: Story;
 //# sourceMappingURL=Link.stories.d.ts.map

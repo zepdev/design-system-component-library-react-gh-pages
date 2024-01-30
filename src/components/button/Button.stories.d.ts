@@ -26,6 +26,7 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
+export declare const IconButton: Story;
 export declare const FullWidth: Story;
 export declare const Overview: Story;
 //# sourceMappingURL=Button.stories.d.ts.map

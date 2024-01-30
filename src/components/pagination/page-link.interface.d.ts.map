@@ -1,0 +1,1 @@
+{"version":3,"file":"page-link.interface.d.ts","sourceRoot":"","sources":["../../../../src/components/pagination/page-link.interface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,OAAO,CAAC;AAEvC,MAAM,WAAW,aAAc,SAAQ,cAAc,CAAC,iBAAiB,CAAC;IACtE,IAAI,CAAC,EAAE,GAAG,CAAC;IACX,MAAM,CAAC,EAAE,OAAO,CAAC;IACjB,QAAQ,CAAC,EAAE,OAAO,CAAC;CACpB"}

@@ -1,4 +1,5 @@
-import { ElementType, AnchorHTMLAttributes } from 'react';
+import { AnchorHTMLAttributes, ElementType } from 'react';
+import { FunctionalIconNames } from '../icon';
 export declare enum LinkMode {
     Standalone = "standalone",
     Inline = "inline"
@@ -18,5 +19,6 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     disabled?: boolean;
     size?: LinkSize;
     target?: LinkTarget;
+    icon?: FunctionalIconNames;
 }
 //# sourceMappingURL=link.interface.d.ts.map

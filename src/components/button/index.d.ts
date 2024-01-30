@@ -1,3 +1,4 @@
 export { Button } from './Button';
-export type { ButtonVariant, ButtonProps } from './button.interface';
+export { ButtonVariant } from './button.interface';
+export type { ButtonProps } from './button.interface';
 //# sourceMappingURL=index.d.ts.map
