@@ -1,3 +1,4 @@
+export * from './accordion';
 export * from './breadcrumb';
 export * from './button';
 export * from './card';
@@ -10,12 +11,15 @@ export * from './hero';
 export * from './icon';
 export * from './input';
 export * from './link';
+export * from './list';
 export * from './media-text';
 export * from './pagination';
 export * from './phone-input';
 export * from './radio';
+export * from './small-hero';
 export * from './spacing';
 export * from './table';
 export * from './tabs';
+export * from './teaser';
 export * from './text-area';
 //# sourceMappingURL=index.d.ts.map

@@ -20,5 +20,8 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     size?: LinkSize;
     target?: LinkTarget;
     icon?: FunctionalIconNames;
+    hasIcon?: boolean;
+    iconPlacement?: 'before' | 'after';
+    className?: string;
 }
 //# sourceMappingURL=link.interface.d.ts.map
