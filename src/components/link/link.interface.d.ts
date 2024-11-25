@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes, ElementType } from 'react';
-import { FunctionalIconNames } from '../icon';
+import { FunctionalIconNames, SocialMediaIconNames } from '../icon';
 export declare enum LinkMode {
     Standalone = "standalone",
     Inline = "inline"
@@ -21,6 +21,8 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     target?: LinkTarget;
     icon?: FunctionalIconNames;
     hasIcon?: boolean;
+    socialMediaIcon?: boolean;
+    socialIcon?: SocialMediaIconNames;
     iconPlacement?: 'before' | 'after';
     className?: string;
 }

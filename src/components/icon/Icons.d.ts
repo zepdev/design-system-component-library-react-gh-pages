@@ -125,6 +125,28 @@ export declare const FunctionalIcons: {
     readonly share: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'add-circle': () => import("react/jsx-dev-runtime").JSX.Element;
 };
+export declare const SocialMediaIcons: {
+    readonly facebook: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly instagram: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly twitter: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly xing: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly linkedin: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly youtube: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly kununu: () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'youtube-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'facebook-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'instagram-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'twitter-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'linkedin-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'xing-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'kununu-circle': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'facebook-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'instagram-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'twitter-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'youtube-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'linkedin-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'xing-colored': () => import("react/jsx-dev-runtime").JSX.Element;
+};
 export declare const ProductIcons: {
     readonly hook: () => import("react/jsx-dev-runtime").JSX.Element;
 };
