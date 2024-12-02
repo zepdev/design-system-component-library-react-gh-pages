@@ -1,8 +1,37 @@
+import { MouseEvent } from 'react';
+export declare enum TableThemes {
+    Zps = "ZPS",
+    Cat = "CAT"
+}
+export declare enum cellType {
+    Text = "text",
+    Icon = "icon",
+    Booliean = "boolean"
+}
+export interface TableCell extends React.HTMLAttributes<HTMLTableElement> {
+    value: string;
+    type: cellType;
+}
+export interface TableRow extends React.HTMLAttributes<HTMLTableElement> {
+    rowCells: TableCell[];
+}
+export interface TableHeads extends React.HTMLAttributes<HTMLTableElement> {
+    name: string;
+}
 export interface TableProps extends React.HTMLAttributes<HTMLTableElement> {
-    children: React.ReactNode;
+    rows: TableRow[];
+    columnNames: TableHeads[];
     maxWidth?: number;
     maxHeight?: number;
     fullWidth?: boolean;
+    variant?: TableThemes;
+    textTop?: boolean;
+    descriptionTop?: string;
+    descriptionBottom: string;
+    buttonLabel: string;
+    align?: 'left' | 'center' | 'right';
+    tableButtonOnClick: (ev: MouseEvent<HTMLElement>) => void;
+    iconButtonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 export interface TableBodyProps extends React.HTMLAttributes<HTMLTableSectionElement> {
     children: React.ReactNode;
@@ -10,7 +39,7 @@ export interface TableBodyProps extends React.HTMLAttributes<HTMLTableSectionEle
 export interface TableCellProps extends React.HTMLAttributes<HTMLTableCellElement> {
     children: React.ReactNode;
     align?: 'left' | 'center' | 'right';
-    dataLabel?: string;
+    isFirstRow?: boolean;
 }
 export interface TableHeadCellProps extends React.HTMLAttributes<HTMLTableCellElement> {
     children: React.ReactNode;

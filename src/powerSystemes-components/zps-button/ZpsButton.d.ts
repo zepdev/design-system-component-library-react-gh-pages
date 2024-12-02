@@ -8,5 +8,5 @@ export declare const zpsButtonVariants: {
 export declare const zpsbutton: (props?: ({
     variant?: ZpsButtonVariant | null | undefined;
 } & import("class-variance-authority/dist/types").ClassProp) | undefined) => string;
-export declare const Button: React.FC<ZpsButtonProps>;
+export declare const ZPSButton: React.FC<ZpsButtonProps>;
 //# sourceMappingURL=ZpsButton.d.ts.map
