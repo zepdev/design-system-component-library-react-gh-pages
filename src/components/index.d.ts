@@ -22,4 +22,5 @@ export * from './table';
 export * from './tabs';
 export * from './teaser';
 export * from './text-area';
+export * from './toggle';
 //# sourceMappingURL=index.d.ts.map

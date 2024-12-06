@@ -76,8 +76,8 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/zps-button/ZpsButton.stories.tsx",
-      "name": "./src/powerSystemes-components/zps-button/ZpsButton.stories.tsx",
+      "id": "./src/powerSystemes-components/richText/RichText.stories.tsx",
+      "name": "./src/powerSystemes-components/richText/RichText.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/richText/RichText.stories.tsx",
-      "name": "./src/powerSystemes-components/richText/RichText.stories.tsx",
+      "id": "./src/powerSystemes-components/zps-button/ZpsButton.stories.tsx",
+      "name": "./src/powerSystemes-components/zps-button/ZpsButton.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -130,8 +130,8 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/hero/Hero.stories.tsx",
-      "name": "./src/powerSystemes-components/hero/Hero.stories.tsx",
+      "id": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx",
+      "name": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -139,8 +139,8 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx",
-      "name": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx",
+      "id": "./src/powerSystemes-components/hero/Hero.stories.tsx",
+      "name": "./src/powerSystemes-components/hero/Hero.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -207,6 +207,15 @@
     {
       "id": "./src/components/tooltip/Tooltip.stories.tsx",
       "name": "./src/components/tooltip/Tooltip.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/toggle/Toggle.stories.tsx",
+      "name": "./src/components/toggle/Toggle.stories.tsx",
       "reasons": [
         {
           "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
@@ -448,6 +457,51 @@
       ]
     },
     {
+      "id": "./.storybook/background.ts",
+      "name": "./.storybook/background.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        },
+        {
+          "moduleName": "./.storybook/modes.ts"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/customViewports.ts",
+      "name": "./.storybook/customViewports.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        },
+        {
+          "moduleName": "./.storybook/modes.ts"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/themes.ts",
+      "name": "./.storybook/themes.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        },
+        {
+          "moduleName": "./.storybook/modes.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/tailwind.css",
+      "name": "./src/tailwind.css",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/powerSystemes-components/zps-button/ZpsButton.tsx",
       "name": "./src/powerSystemes-components/zps-button/ZpsButton.tsx",
       "reasons": [
@@ -514,51 +568,6 @@
       ]
     },
     {
-      "id": "./.storybook/background.ts",
-      "name": "./.storybook/background.ts",
-      "reasons": [
-        {
-          "moduleName": "./.storybook/preview.ts"
-        },
-        {
-          "moduleName": "./.storybook/modes.ts"
-        }
-      ]
-    },
-    {
-      "id": "./.storybook/customViewports.ts",
-      "name": "./.storybook/customViewports.ts",
-      "reasons": [
-        {
-          "moduleName": "./.storybook/preview.ts"
-        },
-        {
-          "moduleName": "./.storybook/modes.ts"
-        }
-      ]
-    },
-    {
-      "id": "./.storybook/themes.ts",
-      "name": "./.storybook/themes.ts",
-      "reasons": [
-        {
-          "moduleName": "./.storybook/preview.ts"
-        },
-        {
-          "moduleName": "./.storybook/modes.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/tailwind.css",
-      "name": "./src/tailwind.css",
-      "reasons": [
-        {
-          "moduleName": "./.storybook/preview.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
       "name": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
       "reasons": [
@@ -618,6 +627,15 @@
       "reasons": [
         {
           "moduleName": "./src/components/tooltip/Tooltip.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/toggle/Toggle.tsx",
+      "name": "./src/components/toggle/Toggle.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/toggle/Toggle.stories.tsx"
         }
       ]
     },
@@ -790,18 +808,6 @@
       ]
     },
     {
-      "id": "./src/components/text-area/TextArea.tsx",
-      "name": "./src/components/text-area/TextArea.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/text-area/index.ts"
-        },
-        {
-          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/card/Card.tsx",
       "name": "./src/components/card/Card.tsx",
       "reasons": [
@@ -810,6 +816,18 @@
         },
         {
           "moduleName": "./src/components/card/Card.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/text-area/TextArea.tsx",
+      "name": "./src/components/text-area/TextArea.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/text-area/index.ts"
+        },
+        {
+          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
         }
       ]
     },
@@ -1259,10 +1277,10 @@
           "moduleName": "./src/components/checkbox/Checkbox.tsx"
         },
         {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
@@ -1402,24 +1420,6 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/CountrySelect.tsx",
-      "name": "./src/components/phone-input/CountrySelect.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/PhoneInput.css",
-      "name": "./src/components/phone-input/PhoneInput.css",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/accordion/index.ts",
       "name": "./src/components/accordion/index.ts",
       "reasons": [
@@ -1524,6 +1524,33 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/toggle/index.ts",
+      "name": "./src/components/toggle/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/CountrySelect.tsx",
+      "name": "./src/components/phone-input/CountrySelect.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.css",
+      "name": "./src/components/phone-input/PhoneInput.css",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         }
       ]
     },

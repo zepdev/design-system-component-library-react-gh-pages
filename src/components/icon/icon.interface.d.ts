@@ -10,7 +10,7 @@ interface IconProps extends SVGAttributes<SVGAElement> {
 }
 export interface FunctionalIconProps extends IconProps {
     name: FunctionalIconNames;
-    size?: 20 | 24;
+    size?: 20 | 24 | 32;
 }
 export interface ProductIconProps extends IconProps {
     name: ProductIconNames;
