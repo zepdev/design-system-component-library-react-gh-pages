@@ -1,5 +1,6 @@
 import { ButtonProps } from '..';
 import { MediaTextBodyProps, MediaTextDescriptionProps, MediaTextHeadlineProps, MediaTextImageProps, MediaTextProps } from './media-text.interface';
+
 declare const MediaText: {
     ({ children, align }: MediaTextProps): import("react/jsx-dev-runtime").JSX.Element;
     Image: ({ src, alt, children, aspectRatio }: MediaTextImageProps) => import("react/jsx-dev-runtime").JSX.Element;

@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { TeaserSimpleProps } from './teaser-simple.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<TeaserSimpleProps>;
+    component: import('react').FC<TeaserSimpleProps>;
     tags: string[];
     argTypes: {};
 };

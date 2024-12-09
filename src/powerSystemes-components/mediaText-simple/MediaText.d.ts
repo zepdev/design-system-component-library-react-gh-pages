@@ -1,4 +1,5 @@
 import { MediaTextBodyProps, MediaTextButtonProps, MediaTextDescriptionProps, MediaTextHeadlineProps, MediaTextImageProps, MediaTextProps, MediaTextTaglineProps } from './mediaText.interface';
+
 export declare const useMediaTextContext: () => {
     imageAlignment: string;
 };

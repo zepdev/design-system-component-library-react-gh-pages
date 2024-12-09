@@ -1,5 +1,6 @@
 import { ButtonHTMLAttributes, MouseEvent, ReactNode } from 'react';
-import { FunctionalIconNames } from '../icon/icon.interface';
+import { FunctionalIconNames } from '../icon';
+
 export declare enum ButtonVariant {
     Primary = "primary",
     Secondary = "secondary",

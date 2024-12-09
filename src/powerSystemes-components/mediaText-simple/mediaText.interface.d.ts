@@ -1,4 +1,5 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
+
 export interface MediaTextProps {
     imageAlignment?: 'left' | 'right';
     children?: ReactNode;

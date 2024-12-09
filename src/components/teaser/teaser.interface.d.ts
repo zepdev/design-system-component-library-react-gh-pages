@@ -1,4 +1,5 @@
-import React, { ReactNode } from 'react';
+import { default as React, ReactNode } from 'react';
+
 export interface TeaserProps {
     backgroundColor?: 'dark' | 'white';
     imageAlignment?: 'left' | 'right';

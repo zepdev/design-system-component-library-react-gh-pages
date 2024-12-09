@@ -1,10 +1,11 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<import("./pagination.interface").PaginationProps>;
+    component: import('react').FC<import('./pagination.interface').PaginationProps>;
     tags: string[];
     argTypes: {};
-    decorators: ((Story: import("@storybook/types").PartialStoryFn<import("@storybook/react/dist/types-0a347bb9").R, {
+    decorators: ((Story: import('@storybook/types').PartialStoryFn<import('@storybook/react/dist/types-0fc72a6d').R, {
         Comp?: keyof JSX.IntrinsicElements | undefined;
         currentPage: number;
         lastPage: number;

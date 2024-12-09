@@ -1,5 +1,6 @@
 import { InputHTMLAttributes } from 'react';
 import { FunctionalIconNames } from '../icon/icon.interface';
+
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     label?: string;
     error?: boolean;

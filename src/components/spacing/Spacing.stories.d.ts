@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { SpacingProps } from './spacing.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<SpacingProps>;
+    component: import('react').FC<SpacingProps>;
     tags: string[];
     argTypes: {
         direction: {

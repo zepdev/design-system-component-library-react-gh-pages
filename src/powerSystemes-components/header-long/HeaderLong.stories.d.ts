@@ -1,5 +1,6 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { HeaderLongProps } from './headerlong.interface';
+
 declare const meta: {
     title: string;
     component: ({ textColor, type, tagline, headline, description, linkHref, linkText, buttonOnClick, buttonText, }: HeaderLongProps) => import("react/jsx-dev-runtime").JSX.Element;

@@ -1,4 +1,5 @@
 import { ProductIcons } from '../../components/icon/Icons';
+
 export type ProductIconNames = keyof typeof ProductIcons;
 export interface USPProps {
     textColor?: 'white' | 'blue';

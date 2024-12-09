@@ -1,5 +1,6 @@
 import { SVGAttributes } from 'react';
 import { FunctionalIcons, ProductIcons, SocialMediaIcons } from './Icons';
+
 export type FunctionalIconNames = keyof typeof FunctionalIcons;
 export type ProductIconNames = keyof typeof ProductIcons;
 export type SocialMediaIconNames = keyof typeof SocialMediaIcons;

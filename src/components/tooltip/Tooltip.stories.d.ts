@@ -1,5 +1,6 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { TooltipProps } from './tooltip.interface';
+
 declare const meta: {
     title: string;
     component: ({ children, content, className, color, position, align, }: TooltipProps) => import("react/jsx-dev-runtime").JSX.Element;

@@ -1,4 +1,5 @@
 import { HTMLAttributes, ReactNode } from 'react';
+
 export interface HeroProps extends HTMLAttributes<HTMLDivElement> {
     Comp?: keyof JSX.IntrinsicElements;
     imagePath: string;

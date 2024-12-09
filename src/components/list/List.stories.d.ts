@@ -1,10 +1,11 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { ListProps } from './list.interface';
+
 declare const meta: {
     title: string;
     component: {
         ({ type, children, className }: ListProps): import("react/jsx-dev-runtime").JSX.Element;
-        Item: ({ children }: import("./list.interface").ListItemProps) => import("react/jsx-dev-runtime").JSX.Element;
+        Item: ({ children, className }: import('./list.interface').ListItemProps) => import("react/jsx-dev-runtime").JSX.Element;
     };
     tags: string[];
     argTypes: {

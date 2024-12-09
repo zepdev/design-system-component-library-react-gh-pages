@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { ToggleProps } from './toggle.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<ToggleProps>;
+    component: import('react').FC<ToggleProps>;
     tags: string[];
     argTypes: {
         toggleVariant: {

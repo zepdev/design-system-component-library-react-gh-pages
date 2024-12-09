@@ -1,4 +1,5 @@
 import { HeroArrowIconProps, HeroBodyProps, HeroButtonProps, HeroHeadlineProps, HeroImageProps, HeroProps } from './hero.interface';
+
 declare const Hero: {
     ({ children }: HeroProps): import("react/jsx-dev-runtime").JSX.Element;
     Image: ({ imageSrc, imageAlt }: HeroImageProps) => import("react/jsx-dev-runtime").JSX.Element;

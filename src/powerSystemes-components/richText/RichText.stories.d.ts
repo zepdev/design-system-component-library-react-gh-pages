@@ -1,5 +1,6 @@
 import { StoryObj } from '@storybook/react';
 import { RichTextProps } from './rich-text.interface';
+
 declare const meta: {
     title: string;
     component: ({ content, children, textColor }: RichTextProps) => import("react/jsx-dev-runtime").JSX.Element;

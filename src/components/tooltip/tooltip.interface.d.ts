@@ -1,4 +1,5 @@
 import { MouseEventHandler } from 'react';
+
 type TooltipBubblePosition = 'top' | 'bottom' | 'left' | 'right';
 type TooltipBubbleColor = 'light' | 'dark';
 type TooltipBubbleAlign = 'start' | 'center' | 'end';

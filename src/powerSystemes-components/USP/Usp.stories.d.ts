@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { USPProps } from './usp.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<USPProps>;
+    component: import('react').FC<USPProps>;
     tags: string[];
     argTypes: {};
 };

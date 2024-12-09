@@ -1,4 +1,5 @@
 import { HTMLAttributes } from 'react';
+
 export interface RadioProps extends HTMLAttributes<HTMLInputElement> {
     id: string;
     name: string;

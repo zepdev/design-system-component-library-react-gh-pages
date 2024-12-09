@@ -1,4 +1,5 @@
 import { ZpsButtonProps, ZpsButtonVariant } from './zps-button.interface';
+
 export declare const zpsButtonVariants: {
     primary: string[];
     "secondary-zps": string[];
@@ -7,6 +8,6 @@ export declare const zpsButtonVariants: {
 };
 export declare const zpsbutton: (props?: ({
     variant?: ZpsButtonVariant | null | undefined;
-} & import("class-variance-authority/dist/types").ClassProp) | undefined) => string;
+} & import('class-variance-authority/dist/types').ClassProp) | undefined) => string;
 export declare const ZPSButton: React.FC<ZpsButtonProps>;
 //# sourceMappingURL=ZpsButton.d.ts.map

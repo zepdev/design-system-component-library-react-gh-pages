@@ -1,5 +1,6 @@
 import { ButtonProps } from '..';
 import { TeaserBodyProps, TeaserDescriptionProps, TeaserHeadlineProps, TeaserImageProps, TeaserProps, TeaserTaglineProps } from './teaser.interface';
+
 export declare const useTeaserContext: () => {
     backgroundColor: string;
 };

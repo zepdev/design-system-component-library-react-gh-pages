@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
     tags: string[];
-    component: import("react").FC<import("./icon.interface").ProductIconProps>;
+    component: import('react').FC<import('./icon.interface').ProductIconProps>;
     argTypes: {
         name: {
             control: {
