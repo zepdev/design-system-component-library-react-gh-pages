@@ -23,4 +23,5 @@ export * from './tabs';
 export * from './teaser';
 export * from './text-area';
 export * from './toggle';
+export * from './tooltip';
 //# sourceMappingURL=index.d.ts.map

@@ -3,7 +3,7 @@ import { TooltipProps } from './tooltip.interface';
 
 declare const meta: {
     title: string;
-    component: ({ children, content, className, color, position, align, }: TooltipProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ children, label, description, className, color, position, align, }: TooltipProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };
