@@ -9,7 +9,8 @@ declare const meta: {
         Comp?: keyof JSX.IntrinsicElements | undefined;
         currentPage: number;
         lastPage: number;
-        maxLength: number;
+        maxPageLength: number;
+        itemsPerPage: number;
         setCurrentPage: (page: number) => void;
         totalElements: number;
     }>) => import("react/jsx-dev-runtime").JSX.Element)[];
