@@ -15,6 +15,6 @@ export interface DropDownProps extends ListboxProps<'div', any, any> {
     required?: boolean;
     notRequiredHint?: string;
     state?: 'default' | 'error' | 'info';
-    onChange?: (item: string) => void;
+    onChange?: (item: DropDownItem) => void;
 }
 //# sourceMappingURL=drop-down.interface.d.ts.map
