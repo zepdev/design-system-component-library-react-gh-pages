@@ -8,8 +8,6 @@ declare const meta: {
     decorators: ((Story: import('@storybook/types').PartialStoryFn<import('@storybook/react/dist/types-0fc72a6d').R, {
         Comp?: keyof JSX.IntrinsicElements | undefined;
         currentPage: number;
-        lastPage: number;
-        maxPageLength: number;
         itemsPerPage: number;
         setCurrentPage: (page: number) => void;
         totalElements: number;

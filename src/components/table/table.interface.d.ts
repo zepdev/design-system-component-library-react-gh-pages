@@ -3,7 +3,9 @@ import { FunctionalIconNames } from '../icon';
 
 export declare enum TableThemes {
     Zps = "ZPS",
-    Cat = "CAT"
+    Cat = "CAT",
+    Zsd = "ZSD",
+    Default = "Default"
 }
 export declare enum CellType {
     Text = "text",
@@ -30,10 +32,10 @@ export interface TableProps<T = {}> extends React.HTMLAttributes<HTMLTableElemen
     variant?: TableThemes;
     textTop?: boolean;
     descriptionTop?: string;
-    descriptionBottom: string;
-    buttonLabel: string;
+    descriptionBottom?: string;
+    buttonLabel?: string;
     align?: 'left' | 'center' | 'right';
-    tableButtonOnClick: (ev: MouseEvent<HTMLElement>) => void;
+    tableButtonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 export interface TableBodyProps extends React.HTMLAttributes<HTMLTableSectionElement> {
     children: React.ReactNode;
