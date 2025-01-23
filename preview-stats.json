@@ -784,18 +784,6 @@
       ]
     },
     {
-      "id": "./src/components/fieldset/Fieldset.tsx",
-      "name": "./src/components/fieldset/Fieldset.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/fieldset/index.ts"
-        },
-        {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/drop-down/DropDown.tsx",
       "name": "./src/components/drop-down/DropDown.tsx",
       "reasons": [
@@ -804,6 +792,18 @@
         },
         {
           "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/fieldset/Fieldset.tsx",
+      "name": "./src/components/fieldset/Fieldset.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/fieldset/index.ts"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         }
       ]
     },
@@ -893,10 +893,10 @@
           "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
+          "moduleName": "./src/components/button/Button.tsx"
         },
         {
-          "moduleName": "./src/components/button/Button.tsx"
+          "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
@@ -1289,6 +1289,9 @@
           "moduleName": "./src/powerSystemes-components/USP/Usp.tsx"
         },
         {
+          "moduleName": "./src/components/button/Button.tsx"
+        },
+        {
           "moduleName": "./src/components/breadcrumb/Breadcrumb.tsx"
         },
         {
@@ -1296,9 +1299,6 @@
         },
         {
           "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
-        },
-        {
-          "moduleName": "./src/components/button/Button.tsx"
         },
         {
           "moduleName": "./src/components/fieldset/Fieldset.tsx"
@@ -1357,18 +1357,6 @@
       ]
     },
     {
-      "id": "./src/components/pagination/Pagination.tsx",
-      "name": "./src/components/pagination/Pagination.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/media-text/MediaText.tsx",
       "name": "./src/components/media-text/MediaText.tsx",
       "reasons": [
@@ -1377,6 +1365,18 @@
         },
         {
           "moduleName": "./src/components/media-text/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/pagination/Pagination.tsx",
+      "name": "./src/components/pagination/Pagination.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/index.ts"
         }
       ]
     },
