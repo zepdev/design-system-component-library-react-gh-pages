@@ -21,7 +21,6 @@ export interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     size?: LinkSize;
     target?: LinkTarget;
     icon?: FunctionalIconNames;
-    hasIcon?: boolean;
     socialMediaIcon?: boolean;
     socialIcon?: SocialMediaIconNames;
     iconPlacement?: 'before' | 'after';
