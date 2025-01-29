@@ -10,5 +10,6 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
-export declare const ExpandAnItem: Story;
+export declare const ExpandAll: Story;
+export declare const ExpandFirstItem: Story;
 //# sourceMappingURL=Accordion.stories.d.ts.map
