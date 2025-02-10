@@ -4,5 +4,6 @@ export interface PaginationProps {
     itemsPerPage: number;
     setCurrentPage: (page: number) => void;
     totalElements: number;
+    theme?: 'default' | 'indigo';
 }
 //# sourceMappingURL=pagination.interface.d.ts.map
