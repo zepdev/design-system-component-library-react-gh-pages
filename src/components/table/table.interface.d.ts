@@ -30,7 +30,6 @@ export interface TableProps<T = {}> extends React.HTMLAttributes<HTMLTableElemen
     maxHeight?: number;
     fullWidth?: boolean;
     variant?: TableThemes;
-    textTop?: boolean;
     descriptionTop?: string;
     descriptionBottom?: string;
     buttonLabel?: string;

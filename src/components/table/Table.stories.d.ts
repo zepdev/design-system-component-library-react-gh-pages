@@ -2,7 +2,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ children, className, variant, maxWidth, maxHeight, fullWidth, textTop, buttonLabel, descriptionBottom, descriptionTop, dataSource, columns, align, tableButtonOnClick, ...props }: import('./table.interface').TableProps<{}>) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ children, className, variant, maxWidth, maxHeight, fullWidth, buttonLabel, descriptionBottom, descriptionTop, dataSource, columns, align, tableButtonOnClick, ...props }: import('./table.interface').TableProps<{}>) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {
         variant: {
