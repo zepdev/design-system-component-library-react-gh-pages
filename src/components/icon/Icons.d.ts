@@ -126,8 +126,8 @@ export declare const FunctionalIcons: {
     readonly 'share-2': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly add: () => import("react/jsx-dev-runtime").JSX.Element;
     readonly minus: () => import("react/jsx-dev-runtime").JSX.Element;
-    readonly 'add-circle': () => import("react/jsx-dev-runtime").JSX.Element;
     readonly 'marine-ship': () => import("react/jsx-dev-runtime").JSX.Element;
+    readonly 'add-circle': () => import("react/jsx-dev-runtime").JSX.Element;
 };
 export declare const SocialMediaIcons: {
     readonly facebook: () => import("react/jsx-dev-runtime").JSX.Element;
