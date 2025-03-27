@@ -538,18 +538,6 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.stories.tsx"
-        },
-        {
-          "moduleName": "./src/powerSystemes-components/Teaser-simple/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/USP/Usp.tsx",
       "name": "./src/powerSystemes-components/USP/Usp.tsx",
       "reasons": [
@@ -558,6 +546,18 @@
         },
         {
           "moduleName": "./src/powerSystemes-components/USP/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/Teaser-simple/Teaser-simple.stories.tsx"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/Teaser-simple/index.ts"
         }
       ]
     },
@@ -667,6 +667,18 @@
       ]
     },
     {
+      "id": "./src/components/fieldset/Fieldset.tsx",
+      "name": "./src/components/fieldset/Fieldset.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/fieldset/index.ts"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link/Link.tsx",
       "name": "./src/components/link/Link.tsx",
       "reasons": [
@@ -705,18 +717,6 @@
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/fieldset/Fieldset.tsx",
-      "name": "./src/components/fieldset/Fieldset.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/fieldset/index.ts"
-        },
-        {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         }
       ]
     },
@@ -844,6 +844,30 @@
       ]
     },
     {
+      "id": "./src/components/media-text/MediaText.tsx",
+      "name": "./src/components/media-text/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/media-text/MediaText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/media-text/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/pagination/Pagination.tsx",
+      "name": "./src/components/pagination/Pagination.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/fieldset/index.ts",
       "name": "./src/components/fieldset/index.ts",
       "reasons": [
@@ -896,16 +920,16 @@
           "moduleName": "./src/components/drop-down-filter/DropDownFilter.stories.tsx"
         },
         {
-          "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
-        },
-        {
           "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
+          "moduleName": "./src/components/drop-down/DropDown.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
@@ -929,10 +953,10 @@
           "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
         },
         {
-          "moduleName": "./src/components/accordion/Accordion.tsx"
+          "moduleName": "./src/components/index.ts"
         },
         {
-          "moduleName": "./src/components/index.ts"
+          "moduleName": "./src/components/accordion/Accordion.tsx"
         }
       ]
     },
@@ -1097,13 +1121,13 @@
           "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
+          "moduleName": "./src/components/pagination/Pagination.tsx"
+        },
+        {
           "moduleName": "./src/components/input/Input.stories.tsx"
         },
         {
           "moduleName": "./src/components/table/Table.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -1210,30 +1234,6 @@
       ]
     },
     {
-      "id": "./src/components/breadcrumb/Breadcrumb.tsx",
-      "name": "./src/components/breadcrumb/Breadcrumb.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/breadcrumb/Breadcrumb.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/breadcrumb/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/accordion/Accordion.tsx",
       "name": "./src/components/accordion/Accordion.tsx",
       "reasons": [
@@ -1254,6 +1254,30 @@
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "name": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/mediaText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/breadcrumb/Breadcrumb.tsx",
+      "name": "./src/components/breadcrumb/Breadcrumb.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/breadcrumb/Breadcrumb.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/breadcrumb/index.ts"
         }
       ]
     },
@@ -1328,10 +1352,10 @@
           "moduleName": "./src/components/fieldset/Fieldset.tsx"
         },
         {
-          "moduleName": "./src/components/link/Link.tsx"
+          "moduleName": "./src/components/input/Input.tsx"
         },
         {
-          "moduleName": "./src/components/input/Input.tsx"
+          "moduleName": "./src/components/link/Link.tsx"
         },
         {
           "moduleName": "./src/components/accordion/Accordion.tsx"
@@ -1369,6 +1393,27 @@
       ]
     },
     {
+      "id": "./src/components/index.ts",
+      "name": "./src/components/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/media-text/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/components/teaser/Teaser.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/pagination/pageLink.tsx",
+      "name": "./src/components/pagination/pageLink.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/list/List.tsx",
       "name": "./src/components/list/List.tsx",
       "reasons": [
@@ -1377,30 +1422,6 @@
         },
         {
           "moduleName": "./src/components/list/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/media-text/MediaText.tsx",
-      "name": "./src/components/media-text/MediaText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/media-text/MediaText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/media-text/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/pagination/Pagination.tsx",
-      "name": "./src/components/pagination/Pagination.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/pagination/index.ts"
         }
       ]
     },
@@ -1426,18 +1447,6 @@
       ]
     },
     {
-      "id": "./src/components/index.ts",
-      "name": "./src/components/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/teaser/Teaser.tsx"
-        },
-        {
-          "moduleName": "./src/components/media-text/MediaText.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/list/index.ts",
       "name": "./src/components/list/index.ts",
       "reasons": [
@@ -1446,15 +1455,6 @@
         },
         {
           "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/pagination/pageLink.tsx",
-      "name": "./src/components/pagination/pageLink.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
         }
       ]
     },
@@ -1473,108 +1473,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/utils/getDistanceToBottom.ts",
-      "name": "./src/utils/getDistanceToBottom.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
-        },
-        {
-          "moduleName": "./src/components/drop-down/DropDown.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/card-media-component/index.ts",
-      "name": "./src/powerSystemes-components/card-media-component/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/card-square/index.ts",
-      "name": "./src/powerSystemes-components/card-square/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/hero/index.ts",
-      "name": "./src/powerSystemes-components/hero/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/mediaText-simple/index.ts",
-      "name": "./src/powerSystemes-components/mediaText-simple/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/product-highlight/index.ts",
-      "name": "./src/powerSystemes-components/product-highlight/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/richText/index.ts",
-      "name": "./src/powerSystemes-components/richText/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/Teaser-simple/index.ts",
-      "name": "./src/powerSystemes-components/Teaser-simple/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/USP/index.ts",
-      "name": "./src/powerSystemes-components/USP/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/powerSystemes-components/zps-button/index.ts",
-      "name": "./src/powerSystemes-components/zps-button/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/icon/icon.interface.ts",
-      "name": "./src/components/icon/icon.interface.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/icon/index.ts"
         }
       ]
     },
@@ -1692,6 +1590,108 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/getDistanceToBottom.ts",
+      "name": "./src/utils/getDistanceToBottom.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/drop-down-filter/DropDownFilter.tsx"
+        },
+        {
+          "moduleName": "./src/components/drop-down/DropDown.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/card-media-component/index.ts",
+      "name": "./src/powerSystemes-components/card-media-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/card-square/index.ts",
+      "name": "./src/powerSystemes-components/card-square/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/hero/index.ts",
+      "name": "./src/powerSystemes-components/hero/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/mediaText-simple/index.ts",
+      "name": "./src/powerSystemes-components/mediaText-simple/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/product-highlight/index.ts",
+      "name": "./src/powerSystemes-components/product-highlight/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/richText/index.ts",
+      "name": "./src/powerSystemes-components/richText/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/Teaser-simple/index.ts",
+      "name": "./src/powerSystemes-components/Teaser-simple/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/USP/index.ts",
+      "name": "./src/powerSystemes-components/USP/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/powerSystemes-components/zps-button/index.ts",
+      "name": "./src/powerSystemes-components/zps-button/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/icon/icon.interface.ts",
+      "name": "./src/components/icon/icon.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/icon/index.ts"
         }
       ]
     }
