@@ -21,5 +21,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     isLoading?: boolean;
     children?: ReactNode;
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
+    renderLink?: boolean;
+    href?: string;
 }
 //# sourceMappingURL=button.interface.d.ts.map
