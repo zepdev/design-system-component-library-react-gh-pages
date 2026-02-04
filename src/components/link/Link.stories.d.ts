@@ -3,7 +3,7 @@ import { LinkMode, LinkProps, LinkSize, LinkTarget } from './link.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<LinkProps>;
+    component: import('../../../node_modules/@types/react').FC<LinkProps>;
     tags: string[];
     argTypes: {
         disabled: {

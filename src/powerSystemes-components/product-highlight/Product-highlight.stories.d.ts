@@ -3,7 +3,7 @@ import { ProductHighLightProps } from './product-highlight.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<ProductHighLightProps>;
+    component: import('../../../node_modules/@types/react').FC<ProductHighLightProps>;
     tags: string[];
     argTypes: {};
 };

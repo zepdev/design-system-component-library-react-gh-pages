@@ -3,7 +3,7 @@ import { ZpsButtonProps, ZpsButtonVariant } from './zps-button.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<ZpsButtonProps>;
+    component: import('../../../node_modules/@types/react').FC<ZpsButtonProps>;
     tags: string[];
     argTypes: {
         disabled: {

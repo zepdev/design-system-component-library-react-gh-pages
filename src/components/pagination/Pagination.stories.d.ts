@@ -12,7 +12,7 @@ declare const meta: {
             options: string[];
         };
     };
-    decorators: ((Story: import('@storybook/types').PartialStoryFn<import('@storybook/react/dist/types-0fc72a6d').R, {
+    decorators: ((Story: import('../../../node_modules/@storybook/types/dist').PartialStoryFn<import('@storybook/react').ReactRenderer, {
         Comp?: keyof JSX.IntrinsicElements | undefined;
         currentPage: number;
         itemsPerPage: number;

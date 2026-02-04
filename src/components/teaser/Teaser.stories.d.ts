@@ -9,7 +9,7 @@ declare const meta: {
         Body: ({ children }: import('./teaser.interface').TeaserBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
         Headline: ({ children }: import('./teaser.interface').TeaserHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
         Description: ({ children }: import('./teaser.interface').TeaserDescriptionProps) => import("react/jsx-dev-runtime").JSX.Element;
-        Button: ({ children, label, onClick }: Pick<import('..').ButtonProps, "children" | "onClick" | "label" | "icon" | "iconPosition">) => import("react/jsx-dev-runtime").JSX.Element;
+        Button: ({ children, label, onClick }: Pick<import('..').ButtonProps, "children" | "onClick" | "icon" | "iconPosition" | "label">) => import("react/jsx-dev-runtime").JSX.Element;
     };
     tags: string[];
     argTypes: {

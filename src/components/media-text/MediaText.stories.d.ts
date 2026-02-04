@@ -8,7 +8,7 @@ declare const meta: {
         Body: ({ children }: import('./media-text.interface').MediaTextBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
         Headline: ({ children }: import('./media-text.interface').MediaTextHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
         Description: ({ children }: import('./media-text.interface').MediaTextDescriptionProps) => import("react/jsx-dev-runtime").JSX.Element;
-        Button: ({ children, label, onClick, }: Pick<import('..').ButtonProps, "children" | "onClick" | "label" | "icon" | "iconPosition">) => import("react/jsx-dev-runtime").JSX.Element;
+        Button: ({ children, label, onClick, }: Pick<import('..').ButtonProps, "children" | "onClick" | "icon" | "iconPosition" | "label">) => import("react/jsx-dev-runtime").JSX.Element;
     };
     tags: string[];
     argTypes: {

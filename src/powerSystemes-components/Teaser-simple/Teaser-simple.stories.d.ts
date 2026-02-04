@@ -3,7 +3,7 @@ import { TeaserSimpleProps } from './teaser-simple.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<TeaserSimpleProps>;
+    component: import('../../../node_modules/@types/react').FC<TeaserSimpleProps>;
     tags: string[];
     argTypes: {};
 };

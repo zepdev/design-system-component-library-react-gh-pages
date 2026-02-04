@@ -3,7 +3,7 @@ import { SpacingProps } from './spacing.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<SpacingProps>;
+    component: import('../../../node_modules/@types/react').FC<SpacingProps>;
     tags: string[];
     argTypes: {
         direction: {

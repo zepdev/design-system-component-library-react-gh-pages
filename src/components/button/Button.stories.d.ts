@@ -3,7 +3,7 @@ import { ButtonProps, ButtonVariant } from './button.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<ButtonProps>;
+    component: import('../../../node_modules/@types/react').FC<ButtonProps>;
     tags: string[];
     argTypes: {
         disabled: {

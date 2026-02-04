@@ -6,6 +6,6 @@ export declare const spacing: (props?: ({
     justifyContent?: "end" | "start" | "center" | "between" | "around" | "evenly" | null | undefined;
     alignItems?: "end" | "start" | "center" | "baseline" | "stretch" | null | undefined;
     wrap?: "wrap" | "nowrap" | null | undefined;
-} & import('class-variance-authority/dist/types').ClassProp) | undefined) => string;
+} & import('../../../node_modules/class-variance-authority/dist/types').ClassProp) | undefined) => string;
 export declare const Spacing: React.FC<SpacingProps>;
 //# sourceMappingURL=Spacing.d.ts.map

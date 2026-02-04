@@ -3,7 +3,7 @@ import { AccordionProps } from './accordion.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<AccordionProps>;
+    component: import('../../../node_modules/@types/react').FC<AccordionProps>;
     tags: string[];
     argTypes: {};
 };

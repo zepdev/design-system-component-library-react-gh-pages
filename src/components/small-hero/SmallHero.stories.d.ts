@@ -3,7 +3,7 @@ import { SmallHeroProps } from './small-hero.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<SmallHeroProps>;
+    component: import('../../../node_modules/@types/react').FC<SmallHeroProps>;
     argTypes: {
         imagePath: {
             control: {

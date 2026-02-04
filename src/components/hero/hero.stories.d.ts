@@ -3,7 +3,7 @@ import { HeroProps } from './hero.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<HeroProps>;
+    component: import('../../../node_modules/@types/react').FC<HeroProps>;
     argTypes: {
         imagePath: {
             control: {

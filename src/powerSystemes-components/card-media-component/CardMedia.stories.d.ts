@@ -3,7 +3,7 @@ import { CardMediaProps } from './cardmedia.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<CardMediaProps>;
+    component: import('../../../node_modules/@types/react').FC<CardMediaProps>;
     tags: string[];
     argTypes: {};
 };

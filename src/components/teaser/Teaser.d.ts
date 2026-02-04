@@ -11,7 +11,7 @@ declare const Teaser: {
     Body: ({ children }: TeaserBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
     Headline: ({ children }: TeaserHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
     Description: ({ children }: TeaserDescriptionProps) => import("react/jsx-dev-runtime").JSX.Element;
-    Button: ({ children, label, onClick }: Pick<ButtonProps, 'children' | 'onClick' | 'icon' | 'iconPosition' | 'label'>) => import("react/jsx-dev-runtime").JSX.Element;
+    Button: ({ children, label, onClick }: Pick<ButtonProps, "children" | "onClick" | "icon" | "iconPosition" | "label">) => import("react/jsx-dev-runtime").JSX.Element;
 };
 export { Teaser };
 //# sourceMappingURL=Teaser.d.ts.map

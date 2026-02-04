@@ -7,7 +7,7 @@ declare const MediaText: {
     Body: ({ children }: MediaTextBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
     Headline: ({ children }: MediaTextHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
     Description: ({ children }: MediaTextDescriptionProps) => import("react/jsx-dev-runtime").JSX.Element;
-    Button: ({ children, label, onClick, }: Pick<ButtonProps, 'children' | 'onClick' | 'icon' | 'iconPosition' | 'label'>) => import("react/jsx-dev-runtime").JSX.Element;
+    Button: ({ children, label, onClick, }: Pick<ButtonProps, "children" | "onClick" | "icon" | "iconPosition" | "label">) => import("react/jsx-dev-runtime").JSX.Element;
 };
 export { MediaText };
 //# sourceMappingURL=MediaText.d.ts.map

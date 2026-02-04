@@ -3,7 +3,7 @@ import { USPProps } from './usp.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<USPProps>;
+    component: import('../../../node_modules/@types/react').FC<USPProps>;
     tags: string[];
     argTypes: {};
 };

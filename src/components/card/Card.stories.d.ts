@@ -3,7 +3,7 @@ import { CardProps } from './card.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<CardProps>;
+    component: import('../../../node_modules/@types/react').FC<CardProps>;
     tags: string[];
     argTypes: {};
 };
