@@ -562,15 +562,6 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
-      "name": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
       "name": "./src/powerSystemes-components/header-long/HeaderLong.tsx",
       "reasons": [
@@ -580,11 +571,11 @@
       ]
     },
     {
-      "id": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
-      "name": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
+      "id": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
+      "name": "./src/powerSystemes-components/header-short/HeaderShort.tsx",
       "reasons": [
         {
-          "moduleName": "./src/powerSystemes-components/process-chain/procesChain.stories.tsx"
+          "moduleName": "./src/powerSystemes-components/header-short/HeaderShort.stories.tsx"
         }
       ]
     },
@@ -610,6 +601,15 @@
       ]
     },
     {
+      "id": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
+      "name": "./src/powerSystemes-components/process-chain/ProcessChain.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/powerSystemes-components/process-chain/procesChain.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/powerSystemes-components/zps-button/ZpsButton.tsx",
       "name": "./src/powerSystemes-components/zps-button/ZpsButton.tsx",
       "reasons": [
@@ -626,10 +626,10 @@
           "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
+          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/zps-button/index.ts"
@@ -653,10 +653,10 @@
           "moduleName": "./src/powerSystemes-components/hero/Hero.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
+          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/powerSystemes-components/mediaText-simple/MediaText.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/zps-button/ZpsButton.tsx"
@@ -677,10 +677,10 @@
           "moduleName": "./src/components/link/index.ts"
         },
         {
-          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
+          "moduleName": "./src/powerSystemes-components/link-list/linkList.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/link-list/linkList.tsx"
+          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
         }
       ]
     },
@@ -695,28 +695,16 @@
           "moduleName": "./src/components/link/index.ts"
         },
         {
-          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
+          "moduleName": "./src/powerSystemes-components/link-list/linkList.tsx"
         },
         {
-          "moduleName": "./src/powerSystemes-components/link-list/linkList.tsx"
+          "moduleName": "./src/powerSystemes-components/process-chain/ProcessChain.tsx"
         },
         {
           "moduleName": "./src/powerSystemes-components/richText/RichText.tsx"
         },
         {
           "moduleName": "./src/components/link/Link.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/fieldset/Fieldset.tsx",
-      "name": "./src/components/fieldset/Fieldset.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/fieldset/index.ts"
-        },
-        {
-          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         }
       ]
     },
@@ -733,18 +721,6 @@
       ]
     },
     {
-      "id": "./src/components/card/Card.tsx",
-      "name": "./src/components/card/Card.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card/index.ts"
-        },
-        {
-          "moduleName": "./src/components/card/Card.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/grid/Grid.tsx",
       "name": "./src/components/grid/Grid.tsx",
       "reasons": [
@@ -753,6 +729,18 @@
         },
         {
           "moduleName": "./src/components/grid/Grid.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card/Card.tsx",
+      "name": "./src/components/card/Card.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card/index.ts"
+        },
+        {
+          "moduleName": "./src/components/card/Card.stories.tsx"
         }
       ]
     },
@@ -792,6 +780,18 @@
         },
         {
           "moduleName": "./src/components/checkbox/Checkbox.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/fieldset/Fieldset.tsx",
+      "name": "./src/components/fieldset/Fieldset.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/fieldset/index.ts"
+        },
+        {
+          "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         }
       ]
     },
@@ -844,44 +844,14 @@
       ]
     },
     {
-      "id": "./src/components/pagination/Pagination.tsx",
-      "name": "./src/components/pagination/Pagination.tsx",
+      "id": "./src/components/text-area/TextArea.tsx",
+      "name": "./src/components/text-area/TextArea.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+          "moduleName": "./src/components/text-area/index.ts"
         },
         {
-          "moduleName": "./src/components/pagination/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/fieldset/index.ts",
-      "name": "./src/components/fieldset/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
-        },
-        {
-          "moduleName": "./src/compositions/contact-form.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/input/Input.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/PhoneInput.tsx",
-      "name": "./src/components/phone-input/PhoneInput.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/phone-input/index.ts"
+          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
         }
       ]
     },
@@ -914,10 +884,10 @@
           "moduleName": "./src/components/fieldset/Fieldset.stories.tsx"
         },
         {
-          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
+          "moduleName": "./src/components/hero/hero.stories.tsx"
         },
         {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
+          "moduleName": "./src/components/icon/FunctionalIcon.stories.tsx"
         },
         {
           "moduleName": "./src/components/icon/ProductIcon.stories.tsx"
@@ -969,18 +939,6 @@
         },
         {
           "moduleName": "./src/components/tabs/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/text-area/TextArea.tsx",
-      "name": "./src/components/text-area/TextArea.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/text-area/TextArea.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/text-area/index.ts"
         }
       ]
     },
@@ -1124,10 +1082,10 @@
           "moduleName": "./src/components/input/Input.stories.tsx"
         },
         {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
+          "moduleName": "./src/components/table/Table.tsx"
         },
         {
-          "moduleName": "./src/components/table/Table.tsx"
+          "moduleName": "./src/components/pagination/Pagination.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -1155,6 +1113,24 @@
       "reasons": [
         {
           "moduleName": "./src/compositions/contact-form.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/fieldset/index.ts",
+      "name": "./src/components/fieldset/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/compositions/contact-form.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/input/Input.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
         },
         {
           "moduleName": "./src/components/index.ts"
@@ -1306,6 +1282,18 @@
       ]
     },
     {
+      "id": "./src/components/hero/Hero.tsx",
+      "name": "./src/components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/hero/hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/icon/Icon.tsx",
       "name": "./src/components/icon/Icon.tsx",
       "reasons": [
@@ -1381,18 +1369,6 @@
       ]
     },
     {
-      "id": "./src/components/hero/Hero.tsx",
-      "name": "./src/components/hero/Hero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/hero/hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/list/List.tsx",
       "name": "./src/components/list/List.tsx",
       "reasons": [
@@ -1417,11 +1393,26 @@
       ]
     },
     {
-      "id": "./src/components/pagination/pageLink.tsx",
-      "name": "./src/components/pagination/pageLink.tsx",
+      "id": "./src/components/phone-input/PhoneInput.tsx",
+      "name": "./src/components/phone-input/PhoneInput.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/pagination/Pagination.tsx"
+          "moduleName": "./src/components/phone-input/PhoneInput.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/phone-input/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/pagination/Pagination.tsx",
+      "name": "./src/components/pagination/Pagination.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/pagination/Pagination.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/pagination/index.ts"
         }
       ]
     },
@@ -1471,20 +1462,11 @@
       ]
     },
     {
-      "id": "./src/components/phone-input/CountrySelect.tsx",
-      "name": "./src/components/phone-input/CountrySelect.tsx",
+      "id": "./src/components/pagination/pageLink.tsx",
+      "name": "./src/components/pagination/pageLink.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/phone-input/PhoneInput.css",
-      "name": "./src/components/phone-input/PhoneInput.css",
-      "reasons": [
-        {
-          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+          "moduleName": "./src/components/pagination/Pagination.tsx"
         }
       ]
     },
@@ -1578,15 +1560,6 @@
       "reasons": [
         {
           "moduleName": "./src/powerSystemes-components/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/icon/icon.interface.ts",
-      "name": "./src/components/icon/icon.interface.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/icon/index.ts"
         }
       ]
     },
@@ -1704,6 +1677,33 @@
       "reasons": [
         {
           "moduleName": "./src/components/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/icon/icon.interface.ts",
+      "name": "./src/components/icon/icon.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/icon/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/CountrySelect.tsx",
+      "name": "./src/components/phone-input/CountrySelect.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/phone-input/PhoneInput.css",
+      "name": "./src/components/phone-input/PhoneInput.css",
+      "reasons": [
+        {
+          "moduleName": "./src/components/phone-input/PhoneInput.tsx"
         }
       ]
     }

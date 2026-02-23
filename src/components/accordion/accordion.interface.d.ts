@@ -10,6 +10,7 @@ export type AccordionItem = {
     content: ReactNode;
     disabled?: boolean;
     className?: string;
+    headingLevel?: 2 | 3 | 4 | 5 | 6;
 };
 export interface AccordionProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     items: AccordionItem[];
